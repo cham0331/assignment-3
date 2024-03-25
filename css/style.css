@@ -60,15 +60,7 @@ h1 {
   padding: 1.5em;
 }
 
-/* 
-#about-me div {
 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  
-  
-  
-} */
 
 #about-me {
 
@@ -96,4 +88,15 @@ article {
   
 }
 
+article a {
+  background-color:black;
+  color:#fff;
+  padding: 10px 20px;
+  text-decoration:none;
+}
+
+#work h2{
+  /* max-width: 3rem; */
+  text-align: center;
+}
 
