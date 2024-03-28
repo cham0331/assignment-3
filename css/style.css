@@ -63,24 +63,15 @@ h1 {
   padding: 1.5em;
 }
 
-
-
-#about-me {
-
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  
-  
-
-  
-  
-}
-
 .about-me {
   display: flex;
-  flex-direction:column;
+  flex-direction:row;
   align-items:flex-start;
+}
+
+.about-me img {
+  height: 20rem;
+  width: auto;
 }
 #services {
   background-color:#fafafa;
